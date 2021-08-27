@@ -2,8 +2,6 @@
     Material UI Paperbase Starter for React
 </h1>
 [React Papaerbase Startar Demo](https://react-paperbase-starter.netlify.app)
-Create dashboards and administration tools in Gastby using [Material UI's](https://material-ui.com/) [Paperbase Premium Theme](https://github.com/mui-org/material-ui/tree/master/docs/src/pages/premium-themes/paperbase)
-
 ## 🚀 Quick start
 
 1.  **Clone repository.**
