@@ -34,6 +34,7 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route exact path="/" component={Authentication} />
         <Route exact path="/authentication" component={Authentication} />
         <Route exact path="/database" component={Database} />
         <Route exact path="/hosting" component={Hosting} />
