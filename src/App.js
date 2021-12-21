@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 import Authentication from "./pages/Authentication";
 import Database from "./pages/Database";
 import Storage from "./pages/Storage";
@@ -34,7 +34,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Authentication} />
+        <Route exact path="/">
+         <Redirect to="/authentication" />
+        </Route>
         <Route exact path="/authentication" component={Authentication} />
         <Route exact path="/database" component={Database} />
         <Route exact path="/hosting" component={Hosting} />
